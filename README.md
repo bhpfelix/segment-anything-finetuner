@@ -1,4 +1,4 @@
-# Simple Finetuning Starter Code for Segment Anything
+# Simple Finetuner for Segment Anything
 
 This repository contains a simple starter code for finetuning the [FAIR Segment Anything](https://github.com/facebookresearch/segment-anything) (SAM) models leveraging the convenience of [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/).
 
@@ -6,7 +6,19 @@ This repository contains a simple starter code for finetuning the [FAIR Segment 
 
 1. Install dependencies
 
-    First follow the [setup instruction](https://github.com/facebookresearch/segment-anything/blob/main/README.md#installation) of Segment Anything to install the proper dependencies. Then run
+    First run
+    
+    ```bash
+    git clone --recurse-submodules git@github.com:bhpfelix/segment-anything-finetuner.git
+    ```
+    
+    Then
+    
+    ```bash
+    cd segment-anything-finetuner
+    ```
+
+    Follow the [setup instruction](https://github.com/facebookresearch/segment-anything/blob/main/README.md#installation) of Segment Anything to install the proper dependencies. Then run
 
     ```bash
     pip install -r requirements.txt
